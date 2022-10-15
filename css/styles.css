@@ -444,6 +444,39 @@ footer{
        
         
     }
-    
-    
+    .carousel-indicators{
+        bottom:-1rem;
+        margin-top: 1rem;
+    }
+    .carousel-control-prev{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .carousel-control-next{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .appos{
+        top: -0.5rem;
+        left: -0.05rem;
+    }
+    .appos1{
+        top: -0.5rem;
+        left: -0.05rem;
+    }
+    .down-appos{
+        top: 16rem;
+    }
+    .down-appos1{
+        top: 16rem;
+    }
+
+    .footer-div{
+        text-align: center;
+        left: 0rem;
+        padding-right: 7rem;
+    }
+    .nav-div{
+        padding-right: 7rem;
+    }
 }
