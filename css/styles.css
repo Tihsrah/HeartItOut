@@ -69,6 +69,7 @@ input[type="checkbox"]:checked + label {
     border: 1.01873px solid #C6C6C6;
     border-radius: 9.16854px;  
     color: #01818C;
+    
 }
 .btn::after {
     /* content: none; */
@@ -80,7 +81,7 @@ input[type="checkbox"]:checked + label {
 .dropdown-menu{
     /* position: absolute; */
     width: 100%;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .mid-dropdown{
@@ -99,7 +100,7 @@ input[type="checkbox"]:checked + label {
 
 /* button */
 .button-container{
-    /* text-align: center; */
+    text-align: center;
 }
 .submit-button{
     width: 10%;
@@ -113,6 +114,7 @@ border-radius: 4.07491px;
 
 /* middle price */
 .card{
+    background-color: #F7FBFD;;
     border-color: #2B7397;
     border-bottom: #fff;
     border-radius: 8px 8px 0px 0px;
@@ -150,6 +152,15 @@ border-radius: 4.07491px;
 .uncolored-text{
     left: 1rem;
     padding: 4rem;
+    background-color: #F7FBFD;
+    border-radius: 0;
+}
+
+.card-heading h5{
+    color: #455A64;
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 2.5rem;
 }
 
 .card-title{
